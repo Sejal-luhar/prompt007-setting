@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+}
+.container>nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    box-shadow: 0 3px 5px rgb(160, 159, 159);
+}
+.buttons1>button, .buttons2>button{
+    color: rgb(53, 120, 243);
+    padding: 3px 8px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.container>h2{
+    padding:10px 20px;
+}
+.flex-container{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+.flex1{
+    width: 20%;
+    height: 83%;
+    box-shadow: 0 0 5px rgb(177, 176, 176);
+}
+#head-para{
+    background-color: rgb(252, 249, 249);
+    border: 2px solid rgb(214, 214, 214);
+    padding: 5px;
+    margin: 2px 0;
+}
+.flex1>h3{
+    font-size: 18px;
+    background-color: rgb(250, 249, 249);
+    padding: 5px;
+    color: rgb(27, 252, 6);
+}
+.flex1>p{
+    line-height: 23px;
+    font-size: 14px;
+    color: rgb(74, 152, 241);
+}
+.flex2{
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 0 3px  5px rgb(172, 171, 171);
+    overflow: hidden;
+}
+
+.flex2>p{
+    font-weight: 800;
+    margin-top: 10px;
+}
+.flex2>small{
+    color: rgb(165, 164, 164);
+}
+.flex2>input{
+    border: 2px solid rgb(187, 185, 185);
+    border-radius: 3px;
+    padding: 5px;
+    width: 90%;
+}
+#radio{
+    width: initial;
+    line-height: 20px;
+}
+.radio-button{
+    border: 2px solid rgb(199, 196, 196);
+    padding: 7px 5px;
+    border-radius: 3px;
+    margin:5px 0;
+}
+#butt2{
+    background-color: rgb(179, 174, 174);
+    padding-left:3px ;
+    padding-right: 25px;
+}
+.flex2>button{
+    background-color: rgb(124, 250, 124);
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 25px;
+    color: white;
+}
+.setting{
+    display: flex; justify-content: space-between;
+}
+.setting>button{
+    padding: 5px 18px;
+    background-color: rgb(72, 250, 72);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+#small2{
+    display: block;
+    padding: 7px;
+    margin: 5px 0;
+    border: 1px solid rgb(179, 178, 178) ;
+}

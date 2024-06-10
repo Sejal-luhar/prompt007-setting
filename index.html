@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="buttons1">
+                <button>Create <i class="ri-arrow-down-s-line"></i></button>
+                <button>Edit <i class="ri-arrow-down-s-line"></i></button>
+                <button><i class="ri-file-2-line"></i> Files</button>
+                <button><i class="ri-group-line"></i>Members</button>
+            </div>
+            <div class="buttons2">
+                 <button><i class="ri-tools-line"></i> Devloper</button>
+                 <button><i class="ri-settings-2-line"></i> Setting</button>
+            </div>
+        </nav>
+        <h2>System Setting</h2>
+        <div class="flex-container">
+            <div class="flex1">
+                <h3>General Setting</h3>
+                <p><span>-</span> Licence & registration</p>
+                <p><span>-</span>URL and Path setting</p>
+                <p><span>-</span>Outgoing Email</p>
+                <p><span>-</span>Debugging & Output</p>
+                <p id="head-para">Content & Fesign</p>
+                <p><span>-</span>Comment Setting</p>
+                <p><span>-</span>HTML Buttons</p>
+                <p><span>-</span>Template Setting</p>
+                <p><span>-</span>Hit Tracking</p>
+                <p><span>-</span>Word Censoring</p>
+                <p><span>-</span>Menu Manager</p>
+                <p id="head-para">Members</p>
+                <p><span>-</span>Messages</p>
+                <p><span>-</span>Authors</p>
+                <p id="head-para">Security & Privacy</p>
+                <p><span>-</span>Access Throtting</p>
+                <p><span>-</span>Captcha</p>
+            </div>
+            <div class="flex2">
+                <div class="setting">
+                <h3>General Setting </h3>
+                <button>Save Setting</button>
+            </div>
+                 <p>Name*</p>
+                <input type="text" placeholder="EE4">
+                <p>Short Name*</p>
+                <small>No spaces Underscore and dashes are allowed</small> <br>
+                <input type="text" placeholder="default_site">
+                <p>Website online?</p>
+                <small>When disclosed only Admins and mentor group with permission will be able to browse your Website.</small> <br>
+                <button><i class="ri-radio-button-line"></i></button><br>
+                <p>New version auto check</p>
+                <small>When set auto, ExpressionEngine will automatically  check for the newer version of the software.</small><br>
+                <div class="radio-button">
+                <input id="radio" name="radio" type="radio"> Auto 
+                <hr>
+                <input id="radio" name="radio" type="radio"> Manual
+                </div>
+                <p>Enable Site Manager?</p>
+                <small>When enabled , super Admins and member group with permission will be able to manage additional Website from the CP</small> <br>
+                <button id="butt2"><i class="ri-circle-fill"></i></button><br>
+                
+                 <small id="small2">Default</small>
+                 <p>Languages</p>
+                 <small>Used in the control panel only</small><br>
+                 <div class="radio-button">
+                    <input type="radio"> English
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
